@@ -21,7 +21,6 @@ reg [1:0] current_state, next_state, delayed_current_state;
 
 always @(posedge clk or negedge rst_n) begin
     if (!rst_n) begin
-        current_state <= IDLE;
         delayed_current_state <= IDLE;
     end else begin
         delayed_current_state <= current_state; // Delay the current state by one clock cycle
