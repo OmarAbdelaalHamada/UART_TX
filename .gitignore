@@ -22,3 +22,9 @@ rad.json
 TestResults.xml
 work
 .history
+CRC_DUMP.vcd
+UART_TX.cr.mti
+UART_TX.mpf
+tcl_stacktrace.txt
+vsim.wlf
+wlftti4hyy

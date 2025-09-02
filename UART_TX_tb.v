@@ -33,7 +33,7 @@ module UART_TX_tb;
     initial begin
 
         // System Functions
-        $dumpfile("CRC_DUMP.vcd") ;       
+        $dumpfile("UART_TX_DUMP.vcd") ;       
         $dumpvars;
 
         // Initialize signals
